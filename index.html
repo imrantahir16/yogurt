@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Abril+Fatface|Open+Sans:300,700&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="css/general.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/queries.css" />
+
+    <script defer src="js/script.js"></script>
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
+    <title>Yogurt</title>
+  </head>
+  <body>
+    <section>
+      <nav class="main-nav container">
+        <div class="logo">
+          <a href="#">
+            <img src="img/logo-dans-meat-yogurt.svg" alt="yogurt logo" />
+          </a>
+        </div>
+        <div class="nav">
+          <ul class="nav-list">
+            <li class="">
+              <select
+                class="dropdown-list btn"
+                id="select-flavour"
+                name="select-flavour"
+              >
+                <option value="">Flavors</option>
+                <option value="ham">Ham</option>
+                <option value="chicken">Chicken</option>
+                <option value="meat">Meat</option>
+                <option value="fish">Fish</option>
+              </select>
+            </li>
+            <li class="nav-item">
+              <a class="btn" href="#">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </section>
+    <section class="hero-section container grid grid-2-cols center-v">
+      <div class="text">
+        <h1 class="primary-heading">Thick & Creamy</h1>
+        <p class="text-hero">With real meat chunks</p>
+        <a class="btn" href="#">Pricing</a>
+      </div>
+      <div>
+        <img class="hero-image" src="img/hero1.png" alt="yogurt image" />
+      </div>
+    </section>
+    <section class="section-msg container grid-founder">
+      <div class="founder-pic">
+        <img
+          class="founder-img"
+          src="img/headshot-dan.jpg"
+          alt="founder image"
+        />
+      </div>
+      <div class="founder-msg">
+        <h2 class="secondary-heading">Message from our founder</h2>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid
+          perspiciatis natus officiis, voluptate illo dolorum sint ex maiores
+          odit adipisci deserunt vel reprehenderit itaque, ea cupiditate
+          delectus nisi maxime? Beatae Lorem ipsum dolor sit amet consectetur
+          adipisicing elit. Eveniet saepe deserunt qui asperiores rem atque
+          aperiam dolorum quidem, tempora nihil ipsa nobis eius voluptatibus
+          aspernatur fugit exercitationem, magni reprehenderit totam.
+        </p>
+      </div>
+    </section>
+    <section class="carousel container">
+      <button class="carousel-btn carousel-btn--left">
+        <ion-icon class="carousel-svg" name="chevron-back-outline"></ion-icon>
+      </button>
+      <div class="carousel-track-container">
+        <ul class="carousel-track">
+          <li class="carousel-slide current-slide">
+            <img
+              class="carousel-image"
+              src="img/yogurt-1.png"
+              alt="yogurt image"
+            />
+          </li>
+          <li class="carousel-slide">
+            <img
+              class="carousel-image"
+              src="img/yogurt-2.png"
+              alt="yogurt image"
+            />
+          </li>
+          <li class="carousel-slide">
+            <img
+              class="carousel-image"
+              src="img/yogurt-3.png"
+              alt="yogurt image"
+            />
+          </li>
+        </ul>
+      </div>
+      <button class="carousel-btn carousel-btn--right">
+        <ion-icon
+          class="carousel-svg"
+          name="chevron-forward-outline"
+        ></ion-icon>
+      </button>
+      <div class="carousel-nav">
+        <button class="carousel-indicator current-slide"></button>
+        <button class="carousel-indicator"></button>
+        <button class="carousel-indicator"></button>
+      </div>
+    </section>
+    <section class="features container grid grid-3-cols">
+      <div class="feature">
+        <img class="feature-img" src="img/product1.png" alt="product image" />
+        <div class="feature-text">
+          <h3 class="tertiary-heading">Chicken</h3>
+          <p>
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quidem
+            ipsam similique rerum! Rem fugiat laboriosam sequi hic quidem, vero
+            velit nobis quas impedit.
+          </p>
+          <a class="btn--feature" href="#">Order Now</a>
+        </div>
+      </div>
+      <div class="feature">
+        <img class="feature-img" src="img/product2.png" alt="product image" />
+        <div class="feature-text">
+          <h3 class="tertiary-heading">Ham</h3>
+          <p>
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quidem
+            ipsam similique rerum! Rem fugiat laboriosam sequi hic quidem, vero
+            velit nobis quas impedit debitis.
+          </p>
+          <a class="btn--feature" href="#">Order Now</a>
+        </div>
+      </div>
+      <div class="feature">
+        <img class="feature-img" src="img/product3.png" alt="product image" />
+        <div class="feature-text">
+          <div>
+            <h3 class="tertiary-heading">Beef</h3>
+            <p>
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quidem
+              ipsam similique rerum! Rem fugiat laboriosam sequi hic quidem,
+              vero velit nobis quas impedit debitis nostrum.
+            </p>
+          </div>
+          <a class="btn--feature" href="#">Order Now</a>
+        </div>
+      </div>
+    </section>
+  </body>
+</html>
